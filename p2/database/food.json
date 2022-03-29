@@ -1,0 +1,32 @@
+{
+    "Chinese Barbecue Pork": {
+        "name": "Chinese Barbecue Pork",
+        "ingredient": "meat",
+        "description": "Sweet and sticky pork ribs."
+    },
+    "Walnut and Lentil Bolognese": {
+        "name": "Walnut and Lentil Bolognese",
+        "ingredient": "Vegetable",
+        "description": "takes your plant-based eating goals to new heights."
+    },
+    "Strawberry Corn Salsa": {
+        "name": "Strawberry Corn Salsa",
+        "ingredient": "Fruit",
+        "description": "All the colors of summer are captured in this salsa with a fresh, light flavor perfect for snacking between swims or to kick off a backyard barbecue."
+    },
+    "Cream of Asparagus Soup with Parmesan Crisps": {
+        "name": "Cream of Asparagus Soup with Parmesan Crisps",
+        "ingredient": "Dairy",
+        "description": "A creamy soup with asparagus, cream of mushroom, and Parmesan crisps."
+    },
+    "Greek Brown Rice Salad": {
+        "name": "Greek Brown Rice Salad",
+        "ingredient": "Grain",
+        "description":  "The creamy feta, crunchy cucumber, and salty olives bring out delicious flavors in this salad. Entertaining doesn't get any easier than this. Serve it up with lamb, pork, or chicken. "
+    },
+    "other": {
+        "name": "other",
+        "ingredient": "other",
+        "description": "Easy Meatloaf"
+    }
+}

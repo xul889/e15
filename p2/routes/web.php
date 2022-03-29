@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\FoodController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,8 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('hw');
-});
-
+Route::get('/', [FoodController::class, 'index']);
+Route::post('/process', [FoodController::class, 'process']);
 

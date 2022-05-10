@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SayHiByEmail</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css"/>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="/">SayHiByEmail</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/">SendEmail</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/emails/create">CreateEmail</a>
+
+                        </li>
+                        
+                                                <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Privacy">Log</a>
+                        </li>
+                        
+                       
+
+                    </ul>
+                    
+                    <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+                                                    <li class="nav-item">
+                                <a class="nav-link text-dark" href="/">Jill Harvard</a>
+                               
+                               
+                            </li>
+                            <li class="nav-item">
+                                
+                                <form action="/logout" method="POST">
+                                    <input type="hidden" name="_token" value="Aq3lKt0ZEZd9xyfrWJFlA5WhrPDs1ohQuPyCWib3">                                    <input type="hidden" name="_method" value="POST">                                    <button type="submit" class="btn ">Logout</button>
+                                </form>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Title</th>
+            <th scope="col">Content</th>
+            <th scope="col">Created At</th>
+            <th scope="col">Updated At</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+                <tr>
+            <th scope="row">1</th>
+            <td>Merry Christmas</td>
+            <td>Hi, 
+            May the holy Christmas night bring warmth, happiness, and well-being into your life. 
+            Let the lights of Christmas guide you to success and prosperity and bring peace in your life. Merry Christmas dear friend.</td>
+            <td>2021-09-28 07:11:42</td>
+            <td>2022-04-21 19:14:01</td>
+            <td>
+                <a href="/emails/1" test="Merry Christmas" class="btn btn-primary">View</a>
+                <a href="/emails/1/send" class="btn btn-warning">Send</a>
+                
+            </td>
+        </tr>
+                <tr>
+            <th scope="row">2</th>
+            <td>Happy New Year</td>
+            <td>Hi,
+            May each challenge you face this year gives you courage, hope, and success. Hoping you have a great year ahead of you. 
+            May Lord bless you, dear best friend. Happy New Year.</td>
+            <td>2021-08-18 12:28:14</td>
+            <td>2022-04-13 19:03:32</td>
+            <td>
+                <a href="/emails/2" test="Happy New Year" class="btn btn-primary">View</a>
+                <a href="/emails/2/send" class="btn btn-warning">Send</a>
+                
+            </td>
+        </tr>
+                <tr>
+            <th scope="row">3</th>
+            <td>Happy Birthday</td>
+            <td>My Dear Friend, 
+            On your special day only wishes are not enough to show my love for you. It’s an opportunity for me to share my lovely memories along with you.
+            I remember when we were in school.
+            I was badly injured can’t able to prepare for my crucial finals on that time you were there for me who sit beside me long night and prepared me for that extreme time.</td>
+            <td>2022-03-16 14:15:20</td>
+            <td>2022-04-26 14:00:16</td>
+            <td>
+                <a href="/emails/3" test="Happy Birthday" class="btn btn-primary">View</a>
+                <a href="/emails/3/send" class="btn btn-warning">Send</a>
+                
+            </td>
+        </tr>
+                <tr>
+            <th scope="row">4</th>
+            <td>Happy Valentine&#039;s Day</td>
+            <td>Hi,
+            Whether you’re throwing up or breaking up, you want your girlfriend right there! 
+            I don’t trust women who don’t go to their girlfriends.</td>
+            <td>2021-10-12 06:59:07</td>
+            <td>2022-04-23 05:37:56</td>
+            <td>
+                <a href="/emails/4" test="Happy Valentine&#039;s Day" class="btn btn-primary">View</a>
+                <a href="/emails/4/send" class="btn btn-warning">Send</a>
+                
+            </td>
+        </tr>
+                <tr>
+            <th scope="row">5</th>
+            <td>Happy Mother&#039;s Day</td>
+            <td>Happy Mother&#039;s Day to you.</td>
+            <td>2021-09-02 16:30:14</td>
+            <td>2022-04-13 18:18:07</td>
+            <td>
+                <a href="/emails/5" test="Happy Mother&#039;s Day" class="btn btn-primary">View</a>
+                <a href="/emails/5/send" class="btn btn-warning">Send</a>
+                
+            </td>
+        </tr>
+                <tr>
+            <th scope="row">6</th>
+            <td>Happy Father&#039;s Day</td>
+            <td>Happy Father&#039;s Day to you.</td>
+            <td>2021-12-17 12:01:57</td>
+            <td>2022-04-18 04:00:59</td>
+            <td>
+                <a href="/emails/6" test="Happy Father&#039;s Day" class="btn btn-primary">View</a>
+                <a href="/emails/6/send" class="btn btn-warning">Send</a>
+                
+            </td>
+        </tr>
+                <tr>
+            <th scope="row">7</th>
+            <td>Happy Graduation</td>
+            <td>Happy Graduation to you.</td>
+            <td>2021-09-23 15:13:50</td>
+            <td>2022-04-27 06:47:30</td>
+            <td>
+                <a href="/emails/7" test="Happy Graduation" class="btn btn-primary">View</a>
+                <a href="/emails/7/send" class="btn btn-warning">Send</a>
+                
+            </td>
+        </tr>
+                <tr>
+            <th scope="row">8</th>
+            <td>Happy New Year</td>
+            <td>Happy New Year to you and your family.</td>
+            <td>2021-12-02 19:45:58</td>
+            <td>2022-04-19 23:26:53</td>
+            <td>
+                <a href="/emails/8" test="Happy New Year" class="btn btn-primary">View</a>
+                <a href="/emails/8/send" class="btn btn-warning">Send</a>
+                
+            </td>
+        </tr>
+            </tbody>
+</table>
+
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - SayHiByEmail - All rights reserved
+        </div>
+    </footer>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+
+
+
+    
+</body>
+</html>

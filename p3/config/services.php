@@ -16,7 +16,7 @@ return [
 
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
-        'secret' => "625e058756dbe31a8294f94a5b74d439-fe066263-58405265",
+        'secret' => env('MAILGUN_KEY'),
         'endpoint' => env('MAILGUN_ENDPOINT', 'api.mailgun.net'),
         'scheme' => 'https',
     ],
